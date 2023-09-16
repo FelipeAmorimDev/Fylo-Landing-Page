@@ -1,0 +1,208 @@
+/*  
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+body{
+  margin: 0;
+}
+
+h1,h2,h3,h4,p{
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+  display: inline-block;
+}
+
+.header__bg{
+  background-color: #1B2330;
+}
+
+.header__container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.header__top{
+  padding-top: 73px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list{
+  display: flex;
+  gap: 57px;
+}
+
+.nav__item a{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  transition: .3s;
+}
+
+.nav__item a:hover{
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.header__description{
+  padding-top: 75px;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__hero{
+  width: 720px;
+  height: 534px;
+  margin-bottom: 36px;
+  margin: 0 auto;
+}
+
+.header__title{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40;
+  font-weight: 700;
+  line-height: 1.5;
+  max-width: 30ch;
+  margin: 0 auto 32px;
+}
+
+.header__text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  max-width: 55ch;
+  margin: 0 auto 32px;
+}
+
+.header__startedbtn{
+  padding: 19px 96px;
+  border-radius: 28px;
+  color: #fff;
+  background-image: linear-gradient(138deg, #63E1D9 -49.34%, #34A0CD 100%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+ }
+
+ .header__startedbtn:hover{
+  background: #8ADAE3;
+  
+ }
+
+ @media(max-width:600px){
+  .nav__list{
+    gap: 24px;
+      }
+  .nav__item a{
+    font-size: 12px;
+  }
+  .header__title{
+    margin-bottom: 15px;
+    font-size: 24px;
+    max-width: 23ch;
+  }
+  .header__text{
+    font-size: 14px;
+    max-width: 37ch;
+  }
+  .header__hero{
+    width: 304px;
+    height: 225px;
+    margin-bottom: 33px;
+  }
+  .header__logo{
+    width: 80px;
+    height: 24px;
+  }
+  .header__top{
+    padding-top: 24px;
+  }
+  .header__description{
+    padding-top: 48px;
+  }
+
+  .header__startedbtn{
+    padding: 16px 81px;
+   }
+ }
+
+ /* vantagens */
+
+ .vantagens__bg{
+  background-color: #181F2B;
+ }
+
+ .vantagens__container{
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 158px 20px 0px;
+ }
+
+ .vantagens__list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 79px 147px;
+  
+ }
+
+ .vantagem__item{
+  flex-grow: 1;
+  flex-basis: 349px;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+
+ .vantagem__icon{
+  margin-bottom: 16px;
+  width: 104px;
+ }
+
+ .vantagem__title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+ }
+
+ .vantagem__text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  max-width: 48ch;
+ }
+
+ @media(max-width:600px){
+  .vantagem__icon{
+    width: 80px;
+   }
+ }
