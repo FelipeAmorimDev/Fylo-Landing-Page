@@ -177,7 +177,7 @@ a{
  .vantagens__container{
   max-width: 880px;
   margin: 0 auto;
-  padding: 120px 20px 0;
+  padding: 0px 20px 0;
  }
 
  .vantagens__list{
@@ -220,6 +220,9 @@ a{
  }
 
  @media(max-width:600px){
+  .vantagens__container{
+    padding-top: 120px;
+  }
   .vantagem__icon{
     width: 80px;
    }
