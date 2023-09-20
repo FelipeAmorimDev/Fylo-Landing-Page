@@ -35,12 +35,12 @@ a{
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% 410px;
+  padding: 0px 20px;
 }
 
 .header__container{
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0px 20px;
 }
 
 .header__top{
@@ -172,12 +172,12 @@ a{
 
  .vantagens__bg{
   background-color: #181F2B;
+  padding: 0px 20px 0;
  }
 
  .vantagens__container{
   max-width: 880px;
   margin: 0 auto;
-  padding: 0px 20px 0;
  }
 
  .vantagens__list{
@@ -229,6 +229,7 @@ a{
 
  .howfyloworks__bg{
   background-color: #181F2B;
+  padding: 0px 20px;
  }
 
  .howfyloworks__container{
@@ -239,7 +240,7 @@ a{
   gap: 57.24px;
   align-items: center;
   align-items: end;
-  padding:137.37px 20px 0px;
+  padding:137.37px 0px 0px;
   box-sizing: border-box;
  }
 
@@ -314,6 +315,9 @@ a{
   .howflyworks__text:last-of-type{
     max-width: 60ch;
    }
+   .howfyloworks__description{
+    margin-bottom: 0px;
+   }
  }
 
  @media (max-width:600px){
@@ -333,4 +337,110 @@ a{
     font-size: 12px;
     max-width: 134px;
    }
+ }
+
+ /* Testemonial */
+
+ .testemonial__bg{
+  padding: 177.37px 20px 0px;
+  background-color: #181F2B;
+ }
+
+ .testemonial__container{
+  max-width: 1160px;
+  margin: 0 auto;
+ }
+
+ .testemonial__list{
+  display: flex;
+  gap: 40px;
+  position: relative;
+  z-index: 0;
+ }
+
+ .testemonial__item.quote::after{
+  content: "";
+  width: 55px;
+  height: 45px;
+  background-image: url("../images/bg-quotes.png");
+  display: block;
+  position: absolute;
+  top: -38px;
+  left: -10px;
+  z-index: -1;
+ }
+
+ .testemonial__item{
+  background-color: #202A3C;
+  padding: 40px 26px 26px;
+  border-radius: 3.93px;
+ }
+
+ .testemonial__text{
+  margin-bottom: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+ }
+
+ .testemonial__photo{
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+ }
+
+ .testemonial__author{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+ }
+
+ .author__name{
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  color: #fff;
+  margin-bottom: 4px;
+ }
+
+ .author__position{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 7px;
+  font-weight: 400;
+  line-height: 1.42;
+  color: #fff;
+  display: block;
+ }
+
+ @media (max-width:1100px){
+  .testemonial__list{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testemonial__text{
+    max-width: 40ch;
+  }
+  .testemonial__item{
+    position: relative;
+  }
+ }
+
+ @media(max-width:600px){
+   .testemonial__bg{
+    padding-top: 168px;
+    
+   }
+ }
+ 
+
+ @media(max-width:420px){
+  .testemonial__text{
+    font-size: 10px;
+  }
  }
