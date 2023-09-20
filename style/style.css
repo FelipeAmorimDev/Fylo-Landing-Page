@@ -78,8 +78,8 @@ a{
 .header__hero{
   width: 720px;
   height: 534px;
-  margin-bottom: 36px;
   margin: 0 auto;
+  margin-bottom: 36px;
 }
 
 .header__title{
@@ -256,7 +256,7 @@ a{
   font-weight: 700;
   line-height: 1.25;
   color: #fff;
-  max-width: 20ch;
+  max-width: 14ch;
   margin-bottom: 19px;
  }
 
