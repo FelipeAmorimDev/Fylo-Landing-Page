@@ -238,8 +238,13 @@ a{
   grid-template-columns: auto 1fr;
   gap: 57.24px;
   align-items: center;
+  align-items: end;
   padding:137.37px 20px 0px;
   box-sizing: border-box;
+ }
+
+ .howfyloworks__description{
+  margin-bottom: 66px;
  }
 
  .howfyloworks__hero{
