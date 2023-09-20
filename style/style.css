@@ -199,7 +199,7 @@ a{
 
  .vantagem__icon{
   margin-bottom: 16px;
-  width: 104px;
+
  }
 
  .vantagem__title{
@@ -223,9 +223,6 @@ a{
   .vantagens__container{
     padding-top: 120px;
   }
-  .vantagem__icon{
-    width: 80px;
-   }
  }
 
  /* Como o fylo funciona */
