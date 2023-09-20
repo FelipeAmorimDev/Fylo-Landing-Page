@@ -227,3 +227,108 @@ a{
     width: 80px;
    }
  }
+
+ /* Como o fylo funciona */
+
+ .howfyloworks__bg{
+  background-color: #181F2B;
+ }
+
+ .howfyloworks__container{
+  max-width: 1235px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 57.24px;
+  align-items: center;
+  padding:137.37px 20px 0px;
+  box-sizing: border-box;
+ }
+
+ .howfyloworks__hero{
+  width: 614.76px;
+  max-height: 463.63px;
+ }
+
+ .howfyloworks__title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #fff;
+  max-width: 20ch;
+  margin-bottom: 19px;
+ }
+
+ .howflyworks__text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+ }
+
+ .howflyworks__text:first-of-type{
+  margin-bottom: 16px;
+  max-width: 58ch;
+ }
+
+ .howflyworks__text:last-of-type{
+  margin-bottom: 24px;
+ }
+
+ .howflyworks__howworks-btn{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #62E0D9;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: .3s;
+  border-bottom: 1px solid #62E0D9;
+  max-width: 170px;
+ }
+
+ .howflyworks__howworks-btn:hover{
+  color: #FFFFFF;
+  border-color: #fff;
+ }
+
+ .howworks-btn__arrow use{
+  transition: .3s;
+ }
+
+ .howflyworks__howworks-btn:hover .howworks-btn__arrow use{
+  fill: #fff;
+ }
+
+ @media (max-width:1150px){
+  .howfyloworks__container{
+    grid-template-columns: 1fr;
+    gap: 48px;
+    justify-items: center;
+  }
+  .howflyworks__text:last-of-type{
+    max-width: 60ch;
+   }
+ }
+
+ @media (max-width:600px){
+  .howfyloworks__title{
+    font-size: 18px;
+    line-height: 1.333;
+    max-width: initial;
+  }
+  .howflyworks__text{
+    font-size: 14px;
+    max-width: 40ch !important;
+  }
+  .howfyloworks__hero{
+    width: 304px;
+   }
+   .howflyworks__howworks-btn{
+    font-size: 12px;
+    max-width: 134px;
+   }
+ }
