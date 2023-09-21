@@ -1,0 +1,153 @@
+.footer__bg{
+  background-color: #0B1524;
+  padding: 0px 20px;
+ }
+
+ .footer__container{
+  max-width: 1240px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 53px 0px;
+ }
+
+ .footer__top{
+  margin-bottom: 52px;
+ }
+
+ .footer__logo{
+  width: 108px;
+  height: 31px;
+ }
+
+ .footer__infos{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: start;
+ }
+
+ .footer__address{
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  margin-right: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+ }
+
+ .contact__phone,.contact__email{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  display: flex;
+  gap: 23.5px;
+  color:#fff;
+ }
+
+ .footer__contact{
+  margin-right: 159px;
+ }
+
+ .contact__phone{
+  margin-bottom: 16px;
+ }
+
+ .address__text{
+  max-width: 38ch;
+ }
+
+ .footer__navlinks{
+  display: flex;
+  gap: 80px;
+  margin-right: 114px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+ }
+
+ .navlinks__list{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+ }
+
+.footer__sociallist{
+  display: flex;
+  gap: 11.35px;
+}
+
+.navlinks__link a:hover{
+  font-weight: 700;
+}
+
+.facebookicon{
+  width: 32.36px;
+  height: 31px;
+  background-image: url("../images/facebookicon.png");
+  transition: .3s;
+}
+
+.twittericon{
+  width: 32.36px;
+  height: 31px;
+  background-image: url("../images/twittericon.png");
+  transition: .3s;
+}
+
+.instaicon{
+  width: 32.36px;
+  height: 31px;
+  background-image: url("../images/Group\ 15.png");
+  transition: .3s;
+}
+
+.facebookicon:hover{
+  background-image: url("../images/facebookhover.png");
+}
+
+
+.twittericon:hover{
+  background-image: url("../images/twitterhover.png");
+}
+
+
+.instaicon:hover{
+  background-image: url("../images/instagramhover.png");
+}
+
+@media (max-width:1200px){
+  .footer__infos{
+    grid-template-columns: 1fr;
+  }
+  .footer__address{
+    margin-right: 0px;
+    margin-bottom: 16px;
+    gap: 16px;
+  }
+
+  .footer__contact{
+    margin-bottom: 56px;
+    margin-right: 0px;
+  }
+  .contact__email,.contact__phone{
+    gap: 14.5px;
+  }
+  .footer__navlinks{
+    margin-bottom: 56px;
+    margin-right: 0px;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .footer__sociallist{
+    justify-content: center;
+  }
+ 
+  .footer__container{
+    display: grid;
+    justify-content: center;
+  }
+}
