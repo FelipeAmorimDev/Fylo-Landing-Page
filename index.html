@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fylo stores all your most important files in one secure location. Access them wherever
+  you need, share and collaborate with friends family, and co-workers.">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Fylo landing page with dark theme and features grid</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +16,11 @@
 </head>
 
 <body>
-  <header class="header__bg">
+  <header class="header__bg" aria-labelledby="header__title">
     <div class="header__container">
       <div class="header__top">
-        <a href="/"><img src="./images/logo.svg" alt="logo" class="header__logo"></a>
-        <nav class="header__nav">
+        <a href="/"><img src="./images/logo.svg" alt="Fylo" class="header__logo"></a>
+        <nav class="header__nav" aria-label="navegação primaria">
           <ul class="nav__list">
             <li class="nav__item">
               <a href="/">Features</a>
@@ -34,14 +36,14 @@
       </div>
       <div class="header__description">
         <img src="./images/illustration-intro.png" alt="todos arquivos estão acessiveis" class="header__hero">
-        <h1 class="header__title">All your files in one secure location, accessible anywhere.</h1>
+        <h1 class="header__title" id="header__title">All your files in one secure location, accessible anywhere.</h1>
         <p class="header__text">Fylo stores all your most important files in one secure location. Access them wherever
           you need, share and collaborate with friends family, and co-workers.</p>
         <a href="/" class="header__startedbtn">Get Started</a>
       </div>
     </div>
   </header>
-  <section class="vantagens__bg">
+  <section class="vantagens__bg" aria-label="Vantagens Serviço">
     <div class="vantagens__container">
       <ul class="vantagens__list">
         <li class="vantagem__item">
@@ -71,11 +73,11 @@
       </ul>
     </div>
   </section>
-  <section class="howfyloworks__bg">
+  <section class="howfyloworks__bg" aria-labelledby="howfyloworks__title">
     <div class="howfyloworks__container">
       <img src="./images/illustration-stay-productive.png" alt="Stay Productive" class="howfyloworks__hero">
       <div class="howfyloworks__description">
-        <h2 class="howfyloworks__title">Stay productive,
+        <h2 class="howfyloworks__title" id="howfyloworks__title">Stay productive,
           wherever you are</h2>
         <p class="howflyworks__text">Never let location be an issue when accessing your files. Fylo has you covered for
           all of your file storage needs.</p>
@@ -103,7 +105,7 @@
       </div>
     </div>
   </section>
-  <section class="testemonial__bg">
+  <section class="testemonial__bg" aria-label="Area de testemunhos">
     <div class="testemonial__container">
       <ul class="testemonial__list">
         <li class="testemonial__item quote">
@@ -148,9 +150,9 @@
       </ul>
     </div>
   </section>
-  <section class="earlyaccess__bg">
+  <section class="earlyaccess__bg" aria-labelledby="earlyaccess__title">
     <div class="earlyaccess__container">
-      <h2 class="earlyaccess__title">Get early access today</h2>
+      <h2 class="earlyaccess__title" id="earlyaccess__title">Get early access today</h2>
       <p class="earlyaccess__text">It only takes a minute to sign up and our free starter tier is extremely generous. If
         you have any questions, our support team would be happy to help you.</p>
       <form class="earlyaccess__form">
@@ -159,7 +161,7 @@
       </form>
     </div>
   </section>
-  <footer class="footer__bg">
+  <footer class="footer__bg" aria-label="Footer">
     <div class="footer__container">
       <div class="footer__top">
         <a href="/" class="footer__logo"><img src="./images/logo.svg" alt="Fylo"></a>
@@ -182,7 +184,7 @@
             <span class="email__text"><a href="mailto:example@fylo.com">example@fylo.com</a></span>
           </div>
         </div>
-        <nav class="footer__navlinks">
+        <nav class="footer__navlinks" aria-label="Navegação Footer">
           <ul class="navlinks__list">
             <li class="navlinks__link">
               <a href="/">About Us</a>
@@ -211,13 +213,13 @@
         </nav>
         <ul class="footer__sociallist">
           <li class="footer__socialitem">
-            <a href="/"><div class="facebookicon"></div></a>
+            <a href="/" aria-label="Fylo Facebook"><div class="facebookicon"></div></a>
           </li>
           <li class="footer__socialitem">
-            <a href="/"><div class="twittericon"></div></a>
+            <a href="/" aria-label="Fylo Twitter"><div class="twittericon"></div></a>
           </li>
           <li class="footer__socialitem">
-            <a href="/"><div class="instaicon"></div></a>
+            <a href="/" aria-label="Fylo Instagram"><div class="instaicon"></div></a>
           </li>
         </ul>
       </div>

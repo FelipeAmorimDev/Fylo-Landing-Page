@@ -37,6 +37,11 @@
   color: #fff;
  }
 
+ .address__icon{
+  position: relative;
+  top:6px
+ }
+
  .contact__phone,.contact__email{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -87,36 +92,36 @@
 .facebookicon{
   width: 32.36px;
   height: 31px;
-  background-image: url("../images/facebookicon.png");
+  background-image: url("../../images/facebookicon.png");
   transition: .3s;
 }
 
 .twittericon{
   width: 32.36px;
   height: 31px;
-  background-image: url("../images/twittericon.png");
+  background-image: url("../../images/twittericon.png");
   transition: .3s;
 }
 
 .instaicon{
   width: 32.36px;
   height: 31px;
-  background-image: url("../images/Group\ 15.png");
+  background-image: url("../../images/Group\ 15.png");
   transition: .3s;
 }
 
 .facebookicon:hover{
-  background-image: url("../images/facebookhover.png");
+  background-image: url("../../images/facebookhover.png");
 }
 
 
 .twittericon:hover{
-  background-image: url("../images/twitterhover.png");
+  background-image: url("../../images/twitterhover.png");
 }
 
 
 .instaicon:hover{
-  background-image: url("../images/instagramhover.png");
+  background-image: url("../../images/instagramhover.png");
 }
 
 @media (max-width:1200px){
