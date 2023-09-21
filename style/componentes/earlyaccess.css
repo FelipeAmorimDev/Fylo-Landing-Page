@@ -7,7 +7,7 @@
   background-color: #1B2330;
   max-width: 863px;
   margin: 0 auto;
-  padding: 42px 77px 41px;
+  padding: 42px 77px 22px;
   text-align: center;
   box-sizing: border-box;
   box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
@@ -39,16 +39,32 @@
   justify-content: center;
  }
 
+ .email__input{
+  width: 480px;
+ }
+
  #earlyaccess__email{
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: 400;
   padding: 16px 0px 16px 38px;
   border-radius: 24px;
-  width: 480px;
+  width: calc(100% - 29px);
   margin-right: 29px;
   box-sizing: border-box;
   border: none;
+ }
+
+ .email__feedback{
+  opacity: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #FF4242;
+  text-align: left;
+  margin-left: 38px;
+  margin-top: 5px;
+  transition: .3s;
  }
 
  #earlyaccess__email::placeholder{
@@ -59,6 +75,7 @@
  }
 
  .earlyacess__btn{
+  align-self: start;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -74,21 +91,31 @@
   background: #8ADAE3;
  }
 
- @media (max-width:600px){
+ @media (max-width:660px){
+  .email__input{
+    width: 100%;
+   }
+   #earlyaccess__email{
+    width: 100%;
+   }
   .earlyaccess__form{
     flex-direction: column;
   }
 
-  #earlyaccess__email{
-    width: 100%;
-    margin-bottom: 24px;
-  }
   .earlyaccess__container{
     padding: 40px 28px 37px;
   }
   .earlyaccess__bg{
     background: linear-gradient(180deg, #181F2B 50%, #0B1524 50%);
     padding: 0px 20px;
+   }
+   .earlyacess__btn{
+    place-self:stretch;
+   }
+
+   .email__feedback{
+    margin-top: initial;
+    margin-bottom: 18px;
    }
  }
 
